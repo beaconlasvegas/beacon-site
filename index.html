@@ -1,32 +1,91 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>BEACON</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body {
-      margin: 0;
-      background: black;
-      color: white;
-      font-family: Arial, sans-serif;
-      text-align: center;
-    }
-    .container {
-      padding-top: 100px;
-    }
-    h1 {
-      font-size: 48px;
-      letter-spacing: 4px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEACON Arts Foundation of Las Vegas</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #000000;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #ffffff;
+        }
+
+        .container {
+            text-align: center;
+            padding: 40px;
+            max-width: 600px;
+        }
+
+        .logo {
+            width: 350px;
+            height: auto;
+            margin: 0 auto 40px;
+            display: block;
+        }
+
+        .status-text {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .status-subtitle {
+            font-size: 1.2rem;
+            color: #cccccc;
+            margin-bottom: 50px;
+        }
+
+        .contact-email {
+            font-size: 1.3rem;
+            color: #ffa500;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+
+        .contact-email:hover {
+            color: #ffffff;
+        }
+
+        @media (max-width: 600px) {
+            .logo {
+                width: 280px;
+            }
+
+            .status-text {
+                font-size: 1.5rem;
+            }
+
+            .status-subtitle {
+                font-size: 1rem;
+            }
+
+            .contact-email {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <h1>BEACON</h1>
-    <p>Arts Foundation of Las Vegas</p>
-    <p>Bridge · Energy · Art · Creativity · Open · Nest</p>
-    <p style="margin-top:40px;">Contact:</p>
-    <p>beacon.lasvegas@gmail.com</p>
-  </div>
+    <div class="container">
+        <img src="beacon-logo.png" alt="BEACON Arts Foundation Logo" class="logo">
+        
+        <div class="status-text">🚀 Under Construction</div>
+        <div class="status-subtitle">We're building something amazing. Stay tuned!</div>
+
+        <a href="mailto:beacon.lasvegas@gmail.com" class="contact-email">beacon.lasvegas@gmail.com</a>
+    </div>
 </body>
 </html>
